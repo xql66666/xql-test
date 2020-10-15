@@ -1,4 +1,4 @@
-package com.atguigu.juc;
+package com.xuqianlei.juc;
 
 /*
  * 模拟 CAS 算法
@@ -15,7 +15,7 @@ public class TestCompareAndSwap {
 				public void run() {
 					int expectedValue = cas.get();
 					boolean b = cas.compareAndSet(expectedValue, (int)(Math.random() * 101));
-					System.out.println(b);
+					System.out.println(b + "======" + cas.get());
 				}
 			}).start();
 		}
