@@ -12,6 +12,7 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
@@ -28,30 +29,42 @@ import java.util.Random;
 public class DateSortTest {
 
     public static int i = 0;
-   // private static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+    //private static SimpleDateFormat sdf_static = new SimpleDateFormat("yyyy-MM-dd");
     private static DateTimeFormatter ftf = DateTimeFormatter.ofPattern("yyyy-MM-dd");
     private static int dateSort(String o1, String o2) {
         try {
             //System.out.println(i++);
 
-            if ((StringUtils.isBlank(o1) || "--".equals(o1)) && (!StringUtils.isBlank(o2) && !"--".equals(o2))) {
-                System.out.println("o1:" + o1 + "o2:" + o2 + "=========1");
+           /* if ((StringUtils.isBlank(o1) || "--".equals(o1)) && (!StringUtils.isBlank(o2) && !"--".equals(o2))) {
+                //System.out.println("o1:" + o1 + "o2:" + o2 + "=========1");
                 return 1;
             }
             if ((StringUtils.isBlank(o2) || "--".equals(o2)) && (!StringUtils.isBlank(o1) && !"--".equals(o1))) {
-                System.out.println("o1:" + o1 + "o2:" + o2 + "=========-1");
+                //System.out.println("o1:" + o1 + "o2:" + o2 + "=========-1");
                 return -1;
             }
             if ((StringUtils.isBlank(o1) || "--".equals(o1)) && (StringUtils.isBlank(o2) || "--".equals(o2))) {
-                System.out.println("o1:" + o1 + "o2:" + o2 + "=========0");
+                //System.out.println("o1:" + o1 + "o2:" + o2 + "=========0");
                 return 0;
-            }
+            }*/
 
-            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-            //GetMemoryAddress.printAddresses("Address", sdf);
+            /*SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+            for (BasicInfoFzjgDTO basicInfoFzjgDTO : fzjglist) {
+                try {
+                    basicInfoFzjgDTO.setClsj(sdf.format(sdf.parse(basicInfoFzjgDTO.getClsj())));
+                } catch (Exception e) {
+                    logger.warn("日期格式转换错误, date:{}", basicInfoFzjgDTO.getClsj(), e);
+                    basicInfoFzjgDTO.setClsj("");
+                }
+            }*/
+
+
+            SimpleDateFormat sdf_static = new SimpleDateFormat("yyyy-MM-dd");
+            System.out.println(sdf_static);
+            GetMemoryAddress.printAddresses("Address", sdf_static);
             //return Long.compare(ThreadLocalDateUtil.parse(o2).getTime(), ThreadLocalDateUtil.parse(o1).getTime());
-
-            return Long.compare(sdf.parse(o2).getTime(), sdf.parse(o1).getTime());
+            //System.out.println("==========" + sdf.format(sdf.parse(o1)));
+            return Long.compare(sdf_static.parse(o2).getTime(), sdf_static.parse(o1).getTime());
            /* return Long.compare(
                     LocalDateTime.from(LocalDateTime.parse(o1, ftf)).atZone(ZoneId.systemDefault()).toInstant().toEpochMilli(),
                     LocalDateTime.from(LocalDateTime.parse(o1, ftf)).atZone(ZoneId.systemDefault()).toInstant().toEpochMilli());*/
@@ -68,14 +81,15 @@ public class DateSortTest {
 
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
-        Random r = new Random(1);
+        /*Random r = new Random(1);
         for (int j = 0; j < 100; j++) {
             String aaa = String.valueOf(r.nextInt(10000)) + "--" + String.valueOf(r.nextInt(100)) + "--" +String.valueOf(r.nextInt(100));
             list.add(aaa);
-        }
+        }*/
 
 
-        list.add("2017-01-01");
+       /* list.add("2017-01-03");
+        list.add("2017-1-2");
         list.add("2016-01-01");
         list.add("2015-01-01");
         list.add("--");
@@ -107,9 +121,14 @@ public class DateSortTest {
         list.add("2017-01-09");
         list.add("2017-01-10");
         list.add("2017-01-11");
-        list.add("2017-01-12");
+        list.add("2017-01-12");*/
         //32条数据 注释掉一条就不会报错
+        list.add("2017-01-1~~~~~~");
         list.add("2017-01-13");
+        list.add("2017-01-1~~~~~~");
+        list.add("2017-01-3");
+        list.add("2017-01-1~~~~~~");
+
         //先字符串排序一遍
         //Collections.sort(list);
         //换用1.6那种排序方式
@@ -118,6 +137,36 @@ public class DateSortTest {
         long heapSize1 = Runtime.getRuntime().totalMemory();
         System.out.println("排序前堆大小---> " + heapSize1);
 
+        /*for (int j = 0; j < 5; j++) {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    ArrayList<String> arrayList = new ArrayList<>();
+                    Random rand = new Random();
+                    SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+                    Calendar cal = Calendar.getInstance();
+                    cal.set(0000, 0, 1);
+                    long start = cal.getTimeInMillis();
+                    cal.set(2020, 0, 1);
+                    long end = cal.getTimeInMillis();
+                    for(int i = 0; i < 100; i++) {
+                        Date d = new Date(start + (long) (rand.nextDouble() * (end - start)));
+                        arrayList.add(format.format(d));
+                    }
+                    Collections.sort(arrayList, new Comparator<String>() {
+                        @Override
+                        public int compare(String o1, String o2) {
+
+                            return dateSort(o1, o2);
+                        }
+                    });
+                    System.out.println("==================打印结果分隔符======================");
+                    arrayList.forEach(n -> {
+                        System.out.println(n);
+                    });
+                }
+            }).start();
+        }*/
         Collections.sort(list, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
@@ -127,12 +176,6 @@ public class DateSortTest {
         });
 
         long heapSize2 = Runtime.getRuntime().totalMemory();
-        while (true) {
-            Date date = new Date();
-            if (list.size() > 100000) {
-                break;
-            }
-        }
         System.out.println("排序后堆大小---->" + heapSize2);
 
 
@@ -140,6 +183,7 @@ public class DateSortTest {
         list.forEach(n -> {
             System.out.println(n);
         });
+
 
     }
 }
