@@ -1,0 +1,7 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ã‰­Ë
+<
+java:S5164"!Call "remove()" on "threadLocal".(Œ˜Ô®øÿÿÿÿ
+a
+java:S4065"FReplace this anonymous class with a call to "ThreadLocal.withInitial".(Œ˜Ô®øÿÿÿÿ

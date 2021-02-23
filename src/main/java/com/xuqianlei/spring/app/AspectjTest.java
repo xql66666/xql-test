@@ -1,5 +1,6 @@
 package com.xuqianlei.spring.app;
 
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
@@ -22,6 +23,12 @@ public class AspectjTest {
 
     @Before("pointCut()")
     public void before() {
+        System.out.println("before");
+    }
+
+    @Before("pointCut()")
+    public void before1(JoinPoint joinPoint) {
         System.out.println("before1");
+        System.out.println(joinPoint.getThis());
     }
 }

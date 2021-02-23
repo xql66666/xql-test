@@ -1,0 +1,9 @@
+
+Y
+java:S1226">Introduce a new variable instead of reusing the parameter "n".(ŞğÍ…ıÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ˆ¾‡ìÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÅÒÎÒúÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Îª”Œ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŞĞäùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ôá¢
+N	java:S106"9Replace this use of System.out or System.err by a logger.(È»äÌ

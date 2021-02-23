@@ -9,7 +9,7 @@ import java.util.stream.LongStream;
 
 import org.junit.Test;
 
-public class TestForkJoinPool {
+public class JdbcUtilForkJoinPool {
 	
 	public static void main(String[] args) {
 		Instant start = Instant.now();

@@ -1,0 +1,37 @@
+
+_
+java:S1128"=Remove this unused import 'com.sun.jndi.toolkit.url.UrlUtil'.(÷˜˜Öüÿÿÿÿ8¼¾øÄ×.
+X	java:S125e"<This block of commented-out lines of code should be removed.(–â¤Á8¼¾øÄ×.
+>
+java:S16437"Use a StringBuilder instead.(Îí²ùÿÿÿÿ8¼¾øÄ×.
+Q
+java:S37402"/Provide the parametrized type for this generic.(ÓŠÈ‡øÿÿÿÿ8¼¾øÄ×.
+Q
+java:S3740"/Provide the parametrized type for this generic.(¢‚şÄúÿÿÿÿ8¼¾øÄ×.
+2
+java:S16436"Use a StringBuilder instead.(ÀâÓ
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(÷˜˜Öüÿÿÿÿ8¼¾øÄ×.
+Q
+java:S3740_"/Provide the parametrized type for this generic.(ƒŸƒÛûÿÿÿÿ8Ó’¶íØ.
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Ã•»É8¼¾øÄ×.
+i
+java:S2095^"LUse try-with-resources or close this "URLClassLoader" in a "finally" clause.(ÀÑØÇ8¼¾øÄ×.
+c	java:S899K"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8¼¾øÄ×.
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äËû”8¼¾øÄ×.
+L
+java:S3740W"/Provide the parametrized type for this generic.(©ÁÓÜ8¼¾øÄ×.
+>
+java:S1643?"Use a StringBuilder instead.(á€İûşÿÿÿÿ8¼¾øÄ×.
+Z
+java:S1197"8Move the array designator from the variable to the type.(û¬©¾şÿÿÿÿ8¼¾øÄ×.
+Q
+java:S3740b"/Provide the parametrized type for this generic.(ûêÕÇùÿÿÿÿ8¼¾øÄ×.
+^
+java:S1075H"ARefactor your code to get this URI from a customizable parameter.(ÎÙı¡8¼¾øÄ×.
+j
+java:S2095N"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(¶Á²„úÿÿÿÿ8¼¾øÄ×.
+Z
+java:S1197."8Move the array designator from the variable to the type.(à¤Á¢ÿÿÿÿÿ8¼¾øÄ×.
+X	java:S125`"<This block of commented-out lines of code should be removed.(ªÔ»õ8Ó’¶íØ.

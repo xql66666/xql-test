@@ -1,0 +1,11 @@
+
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(±÷¨éúÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(Š“îµ
+\
+java:S1192#"FDefine a constant instead of duplicating this literal "leige" 3 times.(ÿÒ—í
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(ÿÒ—í
+>
+java:S1604*"(Make this anonymous inner class a lambda(É½ˆ
+p
+java:S1488,"[Immediately return this expression instead of assigning it to the temporary variable "str".(ˆ Ä7

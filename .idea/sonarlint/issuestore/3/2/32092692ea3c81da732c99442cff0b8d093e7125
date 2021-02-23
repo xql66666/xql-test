@@ -1,0 +1,44 @@
+
+Q	java:S125T"<This block of commented-out lines of code should be removed.(ù–Ï
+Q	java:S125A"<This block of commented-out lines of code should be removed.(è§¹¦
+O	java:S106Š"9Replace this use of System.out or System.err by a logger.(Ñ”ŠÜ
+K
+java:S1128	"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ
+O	java:S106¸"9Replace this use of System.out or System.err by a logger.(†™ñ‹
+T	java:S106¶"9Replace this use of System.out or System.err by a logger.(š³Õèşÿÿÿÿ
+c
+java:S1104"MMake i a static final constant or non-public and provide accessors if needed.(€ˆé˜
+e	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í›
+
+R	java:S125…"<This block of commented-out lines of code should be removed.(ªªš
+O
+java:S1128"4Remove this unused import 'java.time.ZonedDateTime'.(Å¯Ğ©ûÿÿÿÿ
+V	java:S125F"<This block of commented-out lines of code should be removed.(˜©Ãüÿÿÿÿ
+V	java:S125K"<This block of commented-out lines of code should be removed.(€“ªµıÿÿÿÿ
+H
+java:S1602·",Remove useless curly braces around statement(Â‰úµşÿÿÿÿ
+=
+java:S1068!"'Remove this unused "ftf" private field.(´™†Š
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(„†Š™
+f
+java:S1192~"PDefine a constant instead of duplicating this literal "2017-01-1~~~~~~" 3 times.(ùÇØ•
+Q	java:S125$"<This block of commented-out lines of code should be removed.(‘¨÷Û
+V	java:S125["<This block of commented-out lines of code should be removed.(ÑäÊ—øÿÿÿÿ
+Q	java:S125 "<This block of commented-out lines of code should be removed.(¾ÿÈú
+Q	java:S125&"<This block of commented-out lines of code should be removed.(Şà¡ö
+H
+java:S1612·",Replace this lambda with a method reference.(Â‰úµşÿÿÿÿ
+D
+java:S1604ª"(Make this anonymous inner class a lambda(•÷½Áüÿÿÿÿ
+=
+java:S1444"'Make this "public static i" field final(€ˆé˜
+V	java:S1253"<This block of commented-out lines of code should be removed.(áÏâúÿÿÿÿ
+T	java:S106³"9Replace this use of System.out or System.err by a logger.(Á³–úûÿÿÿÿ
+B
+java:S1128",Remove this unused import 'sun.misc.Unsafe'.(éª‚€
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(¾Ñ™üÿÿÿÿ
+J
+java:S1128"4Remove this unused import 'java.lang.reflect.Field'.(„‡Áú
+R	java:S125Œ"<This block of commented-out lines of code should be removed.(ÆÊŸØ
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(éª‚€

@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="design-model" />
         <module name="dubbo" />
+        <module name="kafka" />
       </profile>
     </annotationProcessing>
   </component>

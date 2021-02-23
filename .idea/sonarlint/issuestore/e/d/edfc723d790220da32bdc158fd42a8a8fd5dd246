@@ -1,0 +1,7 @@
+
+l
+java:S1104"OMake dao a static final constant or non-public and provide accessors if needed.(å“ş8Òğ¨½Ø.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äËû”
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ş± úÿÿÿÿ8Ù¯®½Ø.
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ËÈò½şÿÿÿÿ8êà¤½Ø.

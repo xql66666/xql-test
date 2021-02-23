@@ -9,7 +9,9 @@ import org.springframework.stereotype.Repository;
  * @date 2020/10/28
  */
 @Repository
-public class DaoTest {
+public class DaoTest implements Dao {
+
+    @Override
     public void query() {
         System.out.println("query...");
     }

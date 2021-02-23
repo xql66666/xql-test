@@ -1,0 +1,20 @@
+
+q
+java:S1192'"[Define a constant instead of duplicating this literal "put 'gf_duigong:qygsxx','" 25 times.(´ø¼«
+[
+java:S3252""EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(žŠÜä
+Q	java:S125`"<This block of commented-out lines of code should be removed.(ˆëª…
+b
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ú•ô¯
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+D
+java:S1481_")Remove this unused "yjqx" local variable.(¬Äê¦úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ×á¯ùÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(¢Þ‚Àùÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(Æ¬÷Ýøÿÿÿÿ
+f	java:S117t"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÊñÓ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(æƒçŒüÿÿÿÿ
+f	java:S117s"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Èå¼
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Çµí‘

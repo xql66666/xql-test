@@ -1,0 +1,18 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(—¡ð¯
+B
+java:S3011/",This accessibility update should be removed.(‚˜ÛË
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õ‘‹‹ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¾ ì¡ûÿÿÿÿ
+<	java:S131""Add a default case to this switch.(•û©»þÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ø¹õ¢
+f
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(•û©»þÿÿÿÿ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(ƒ°´Ù
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(éª‚€
+V
+java:S2184"@Cast one of the operands of this addition operation to a "long".(Ã¿ÅÒ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(’ýýòüÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ

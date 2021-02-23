@@ -1,0 +1,9 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ûåóˆ8ûÂ­¼×.
+\
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8¼§‘×.
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(òÀ½şÿÿÿÿ8Ïîüœ×.
+r
+java:S1128"PRemove this unused import 'org.springframework.scheduling.annotation.Scheduled'.(‚¡®Üûÿÿÿÿ8Ç¦á×.
+X	java:S125"<This block of commented-out lines of code should be removed.(Æ¥‹Ñ8Ô™­¼×.

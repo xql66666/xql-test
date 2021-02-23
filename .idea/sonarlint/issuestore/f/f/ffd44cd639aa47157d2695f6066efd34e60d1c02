@@ -1,0 +1,22 @@
+
+k
+java:S3008
+"URename this field "DES_SECRET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Éÿè
+U
+java:S1118":Add a private constructor to hide the implicit public one.(õ­¶Ñşÿÿÿÿ
+L
+java:S1068"1Remove this unused "encryptCipher" private field.(…Œêøÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(¾Òö
+I
+java:S1068".Remove this unused "keyFactory" private field.(¯Á³óüÿÿÿÿ
+u
+java:S1149""_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(‰Èœ¶
+D
+java:S1068
+".Remove this unused "DES_SECRET" private field.(¼Éÿè
+O
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(÷í¯¼
+G
+java:S1068"1Remove this unused "decryptCipher" private field.(…¸ºü
+=
+java:S1068"'Remove this unused "key" private field.(ä¹
