@@ -12,9 +12,9 @@ public class Opertional {
 
     public Double NumberB;
 
-    public Double result;
 
     public Double getResult() {
+        Double result = 0.0;
         return result;
     }
 
@@ -34,7 +34,4 @@ public class Opertional {
         NumberB = numberB;
     }
 
-    public void setResult(Double result) {
-        this.result = result;
-    }
 }
